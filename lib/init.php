@@ -27,7 +27,7 @@
 
 	// include_once( 'functions/theme.php' );
     
-    // include_once( 'functions/template-tags.php' );
+    include_once( 'functions/template-tags.php' );
     
     // include_once( 'functions/videos.php' );
 
