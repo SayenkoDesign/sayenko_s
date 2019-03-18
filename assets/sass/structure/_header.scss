@@ -1,0 +1,53 @@
+/*
+Header
+---------------------------------------------- */
+
+// Fix for sticky header
+.logged-in .site-header.fixed {
+    @include breakpoint(xlarge) {
+        top: 32px;
+    }      
+ }
+ 
+ @include breakpoint(xlarge) {
+    .sticky-header {
+        // Set sticky header height as needed  
+    }
+ }
+
+.site-header {
+        
+    @include breakpoint(xlarge) {
+                        
+        &.fixed {
+            position: fixed!important;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 99;
+            
+            
+            &.shrink {
+                // Scale fixed header logo
+                .site-title {
+                    img {
+                       transform-origin: center center;
+                       transform: scale(.7);
+                       width: auto;   
+                    }
+                }
+            }
+            
+            // Show/Hide fixed header
+            &.nav-up {
+                transform: translateY(-400%);   
+            }
+            
+            &.nav-down {
+                transform: translateY(0);  
+                transition: transform .1s ease 0s; 
+            }
+                
+        }    
+    }
+}
