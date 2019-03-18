@@ -37,7 +37,7 @@
 
 	include_once( 'functions/scripts.php' );
 
-	include_once( 'functions/social.php' );
+	//include_once( 'functions/social.php' );
 
 	//include_once( 'functions/menus.php' );
     
