@@ -9,7 +9,7 @@ I feature some of the web's most exciting technologies like: [Gulp](http://gulpj
 
 ### Prerequisites
 
-Because I'm bundled with Gulp, basic knowledge of the command line and the following dependencies are required: [Node](https://nodejs.org), [Gulp CLI](https://github.com/gulpjs/gulp-cli) (`npm install -g gulp-cli`), and [Bower](https://bower.io/) (`npm install -g bower`). Optionally you can also use Yarn as a package manager.
+Because I'm bundled with Gulp, basic knowledge of the command line and the following dependencies are required: [Node](https://nodejs.org), and  [Gulp CLI](https://github.com/gulpjs/gulp-cli) (`npm install -g gulp-cli`). Optionally you can also use Yarn as a package manager.
 
 
 ## Development
