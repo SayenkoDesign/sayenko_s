@@ -23,7 +23,3 @@ add_action( 'wp_enqueue_scripts', '_s_enqueue_stylesheet', 15 );
 	*****************************************/
 
 add_image_size( 'hero', 1440, 999 ); // 1440 x 510
-add_image_size( 'leadership', 420, 999 );
-add_image_size( 'icon-small', 100, 999 );
-add_image_size( 'icon-medium', 160, 999 );
-add_image_size( 'icon-large', 200, 999 );
